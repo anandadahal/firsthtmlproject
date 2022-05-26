@@ -1,0 +1,10 @@
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.card-img-top {
+    height: auto;
+    width: fit-content;
+}
