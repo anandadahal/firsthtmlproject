@@ -14,7 +14,7 @@
     background-color: #01175e;
     align-items: center;
     align-content: center;
-    position: absolute, fixed;
+    position: fixed;
     text-align: center;
 }
 
@@ -88,20 +88,14 @@
 
 /* .............................. */
 
-.container {
-    border: 1px solid red;
-    position: relative;
+.content {
+    padding: 20px 300px;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.card-img-top {
-    height: auto;
-    width: fit-content;
+.content-object {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
 }
 
 
